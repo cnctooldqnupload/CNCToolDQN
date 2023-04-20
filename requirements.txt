@@ -1,0 +1,9 @@
+tensorflow
+pytorch >= 1.7
+pandas
+numpy
+json
+seaborn
+matplotlib
+sklearn
+tqdm 
