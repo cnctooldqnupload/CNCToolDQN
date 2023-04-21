@@ -26,7 +26,7 @@ python main.py --dir='C:/' --dir_savefigure= 'C:/' --gpu='0' --maxlen=300 --L= 1
 
 --gpu: GPU index to use (default: '0')
 
---maxlen: Window size
+--maxlen: Window size (default = 300) 
 
 --L: Lower limit to calculate p_l, which is the probability of Z score lower than -L (default = 1)
 
