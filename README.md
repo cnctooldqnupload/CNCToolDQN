@@ -7,6 +7,7 @@ CNCToolDQN implementation and TH score estimation (First uploaded in April/12/20
 ![architecture](https://user-images.githubusercontent.com/131362675/233518536-bbf521c0-8ec4-49fc-be5f-8581c7dafccb.png)
 
 CNCToolDQN is a Deep Q-learning based framework for tool monitoring, in which the agent is trained by exploring the representation space of multivariate time-series data (state) of tool loads (i.e., Spindle loads, and Servo loads) and tool age, and gets rewards when it correctly prdicts anomalies (action).  
+Then, predicted output is used to estimate TH (Tool health) score ranging from 0 to 100. 
 
 ## Dataset 
 
