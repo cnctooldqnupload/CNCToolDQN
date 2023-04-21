@@ -2,6 +2,11 @@
 
 CNCToolDQN implementation and TH score estimation (First uploaded in April/12/2023)
 
+
+![architecture](https://user-images.githubusercontent.com/131362675/233514373-45077d96-e958-4b24-88cc-561264835739.png)
+
+
+
 The sample data (OP20_2A End mill) is downloadable at https://drive.google.com/file/d/1qCz1cYYKYRI1uqwHBFPBxfq4bJeEPHNj/view?usp=share_link.
 
 How to run:
