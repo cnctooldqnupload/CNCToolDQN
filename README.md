@@ -21,9 +21,15 @@ How to run:
 python main.py --dir='C:/' --dir_savefigure= 'C:/' --gpu='0' --maxlen=300 --L= 1 --alpha=0.005 --tau=1
 
 --dir: Data directory. ex) "C:/Users/Desktop/Data/"
+
 --dir_savefigure : The directory to save TH score plot. ex) "C:/Users/Desktop/figure/"
+
 --gpu: GPU index to use (default: '0')
+
 --maxlen: Window size
+
 --L: Lower limit to calculate p_l, which is the probability of Z score lower than -L (default = 1)
+
 --alpha: An hyperparameter to estimate TH score (default = 0.005)
+
 --tau: An hyperparameter to estimate TH score (default = 0.1)
